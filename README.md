@@ -1,4 +1,4 @@
-![CricfRank_snapshot-2](https://github.com/bbrali/CricFRank/assets/35129216/4b45edbe-35f5-4e55-9f88-2baf4fd802ba)
+![App Snapshot](./App-Snapshot.png)
 
 # CricFRank
 A Mobile App for cricket lovers.
