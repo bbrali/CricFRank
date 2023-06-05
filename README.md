@@ -1,4 +1,4 @@
-<img src="./App-Snapshot.png" alt="App Snapshot" width="300" height="200">
+<img src="./App-Snapshot.png" alt="App Snapshot" width="150" height="200">
 
 # CricFRank
 A Mobile App for cricket lovers.
