@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "914660639837",
+    "project_id": "cric-f-rank",
+    "storage_bucket": "cric-f-rank.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914660639837:android:76f596b744e15ad6c3b9b4",
+        "android_client_info": {
+          "package_name": "com.babarali.cricf_rank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914660639837-ljp0k478hrmrcalj69mjm5d980p1qhgg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAkxXUEu4LFnb4USP1KKgXP4_bUOOv0t0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914660639837-ljp0k478hrmrcalj69mjm5d980p1qhgg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
