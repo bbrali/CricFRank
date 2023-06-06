@@ -1,5 +1,3 @@
-/// ### WE'VE RESOLVED AN IMPORTANT ISSUE IN THIS FILE/SCREEN. PLEASE, SEE END(BOTTOM) OF THE FILE. ###
-
 import 'package:flutter/material.dart';
 import 'package:cricf_rank/constants.dart';
 import 'package:cricf_rank/components/buttons/login_button.dart';
@@ -212,13 +210,3 @@ class EntranceScreenUI extends StatelessWidget {
     );
   }
 }
-
-/// ### NOTE: 1 Issue regarding layout we had after first 6 modules(i.e: overflow issue in (landscape)orientation) is we still have. WE'LL LOOK FOR IT BY OURSELVES.
-/// SOLUTION: 1st, thing to do is to use 'Expanded' widget. Divide screen in points and use 'flex' factor accordingly(NOTE: In our Future Apps Mock-up Designing we'll use 'Ruler/Scale' for measuring & every part of our Screen/UI will have a calculated height and width-> So, that we're able to set our 'flex' factor values accordingly :-) ), greater the flex values for expanded widgets more accurate crafting you have.(For example: in this screen we considered approx. 550.0 points height in total. So after top margin we divided 48 points as flex values for our Expanded widgets.).
-///   // Now, this almost SOLVED our problem except one thing, which is that we still has hard-coded font size points for our 'Text' Widgets & in landscape oreintation the text doesn't show up completely bcz of less height. (((Another issue regarding layout that we had was the use of 'Expanded' Widget, without further knowing the cause of it,
-///       // To handle this, 2nd thing we did is used Flutter 'FittedBox' widget. Which simple scale and position it's child widget within itself according to 'fit' property. So, we simple wrapped our 'Text' widget wherever we had this issue and boom!!! we solved our problem.
-
-/// /// NOW, ALLHAMDULILLAH! WE DON'T HAVE ANY ISSUE REGARDING LAYING OUT OUR UI. TEST IT/PLAY WITH IT FOR HOURS or AS MUCH AS YOU WANT.
-///  ///  // TESTED ON SIMULATOR(Iphone SE) & ON ANDROID(6.5 inch screen-size) AS WELL. IT WORKS PERFECT FOR ALL ORIENTATION; IT DOESN'T OVERFLOW; IT DOESN'T OVERLAP; FOR ANY SCREEN SIZE, ANY ORIENTATION & ON-SCREEN KEYBOARD AS WELL. :-) :-) :-)
-/// => AND THE TWO SAVIOURS ARE 'Expanded' Widget(with 'flex' property) & 'FittedBox' Widget(with 'fit' and 'alignment' property).
-/// => PRACTICE THIS FOR ALL YOUR SCREENS, in this app.
