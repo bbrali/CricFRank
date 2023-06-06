@@ -37,7 +37,6 @@ class _RegisterScreenState extends State<RegisterScreen> {
           userPassword = valueChanged;
         },
         onButtonPress: () async {
-          // Implement the Register functionality.
           setState(() {
             isInAsyncCall = true;
           });
